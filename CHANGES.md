@@ -1,6 +1,8 @@
 unreleased
 ----------
 
+- Driver: Add `-unused-code-warnings=force` command-line flag argument. (#490, @mbarbin)
+
 - Add `-unused-type-warnings` flag to the driver to allow users to disable
   the generation of warning 34 silencing structure items when using
   `[@@deriving ...]` on type declarations. (#493, @NathanReb)
