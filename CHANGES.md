@@ -1,6 +1,10 @@
 unreleased
 ----------
 
+- Add `-unused-type-warnings` flag to the driver to allow users to disable
+  the generation of warning 34 silencing structure items when using
+  `[@@deriving ...]` on type declarations. (#493, @NathanReb)
+
 0.32.1 (2024-04-23)
 -------------------
 
