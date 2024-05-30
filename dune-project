@@ -6,7 +6,7 @@
 (cram enable)
 (generate_opam_files true)
 
-(source (github ocaml-ppx/ppxlib))
+(source (github mbarbin/ppxlib))
 (license MIT)
 (authors "Jane Street Group, LLC <opensource@janestreet.com>")
 (maintainers "opensource@janestreet.com")
