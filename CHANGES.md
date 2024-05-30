@@ -1,5 +1,8 @@
-unreleased
-----------
+0.32.2-preview.1 (2024-05-30)
+-----------------------------
+
+This is an experimental release meant to ease testing of unreleased
+features. It is not meant for public consumption.
 
 - Driver: Change the construct generated to silence warning 34 to work
   better with coverage tools such as `bisect_ppx`. (#495, @mbarbin)
