@@ -1,6 +1,9 @@
 unreleased
 ----------
 
+- Driver: Change the construct generated to silence warning 34 to work
+  better with coverage tools such as `bisect_ppx`. (#495, @mbarbin)
+
 - Driver: Add `-unused-code-warnings=force` command-line flag argument. (#490, @mbarbin)
 
 - Add `-unused-type-warnings` flag to the driver to allow users to disable
